@@ -21,7 +21,7 @@ public class loginLogout {
 
   @Test(priority=0)
   public void login() throws Exception {
-    driver.get("http://universitedutest.com/OrangeHRM/symfony/web/index.php/auth/login");
+    driver.get("https://opensource-demo.orangehrmlive.com/");
     driver.findElement(By.id("txtUsername")).click();
     driver.findElement(By.id("txtUsername")).clear();
     driver.findElement(By.id("txtUsername")).sendKeys("Admin");
